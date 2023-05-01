@@ -1,0 +1,50 @@
+html{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: KeeponTruckin;
+    src: url(KeeponTruckin.ttf);
+  }
+body{
+   
+    background-image: url(images/aboutme2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+main { 
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 50px; auto;
+}
+.small-profile{
+border-radius: 50%;
+margin: 0 auto;
+}
+.btn{
+    background-color:#8a817cff ;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color:#f4f3eeff;
+    text-align: center;
+    text-decoration: none;
+}
+.btn:hover{
+    background: transparent;
+    border: 1px solid;
+}
+.section{
+    display: flex;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
